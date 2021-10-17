@@ -1,0 +1,31 @@
+*{padding: 0px; margin: 0px auto;}
+
+body
+{
+  background: url(background.jpg) no-repeat center fixed;
+  background-size: cover;
+font-family: 'Commissioner', sans-serif;
+}
+
+.content{                               /* tutto il contentuto con sfondo trasparente*/
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  margin: 80px auto;
+  width: 70%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+
+  h1.titolo { color: lime; padding: 10px;}   /* logo titolo e menu*/
+ .menu { background-color: lime; padding: 10px;}
+  button { margin: 3px; padding: 2px;}
+
+/* i monopattini */
+ h3 { display: inline-block;}
+.box2 {  text-align: left; color: white;}
+.rosso {margin-bottom: 80px;}
+.verde , .rosso , .giallo { margin-top: 50px;}
+.caricarosso {background-color:red; width: 15%; padding: 10px 0px; float: left; border-radius: 5px;margin: 5px 0px; }
+.caricaverde {background-color: green; width: 60%; padding: 10px 0px; float: left; border-radius: 5px;margin: 5px 0px;}
+.caricagiallo {background-color:orange; width: 40%; padding: 10px 0px; float: left; border-radius: 5px;margin: 5px 0px;}
